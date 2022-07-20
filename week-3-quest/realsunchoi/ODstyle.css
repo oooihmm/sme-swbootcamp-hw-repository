@@ -14,7 +14,7 @@ header{
 }
 
 nav{
-  display: inline-block;
+  display: inline;
   background-color: #FAFAFA;
   width: 15%;
   min-height: 95%;
@@ -24,7 +24,7 @@ nav{
 }
 
 section{
-  display: inline-block;
+  display: inline;
   background-color: #FAFAFA;
   width: 84%;
   min-height: 95%;
@@ -44,11 +44,15 @@ section{
 /* header section */
 #headerLeft{
   display: inline-block;
-  background-color: red;
   position: absolute;
   top: 50%;
-  left: 1%;
+  left: 3.5%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  align-items : center;
 }
 
 #headerCenter{
@@ -61,11 +65,14 @@ section{
 
 #headerRight{
   display: inline-block;
-  background-color: yellow;
   position: absolute;
   top: 50%;
-  right: 0.5%;
+  left: 95%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
 }
 /* header section */
 
@@ -86,5 +93,17 @@ section{
 
 #searchBox:focus{
   background-color: white;
+}
+
+.icon{
+  width: 45px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+#logo{
+  color: white;
+  font-weight: bold;
+  height: 25px;
 }
 /* header factor */
