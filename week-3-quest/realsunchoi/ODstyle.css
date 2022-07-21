@@ -107,3 +107,15 @@ section{
   height: 25px;
 }
 /* header factor */
+
+/* nav factor */
+.boldText{
+  font-weight: bold;
+  color : #242424
+}
+
+#userName{
+  width: auto;
+  padding: 15px;
+}
+/* nav factor */
