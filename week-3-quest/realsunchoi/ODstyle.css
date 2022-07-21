@@ -1,3 +1,4 @@
+
 /* section*/
 body{
   background-size: cover;
@@ -98,7 +99,7 @@ section{
 .icon{
   width: 45px;
   height: 25px;
-  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #logo{
