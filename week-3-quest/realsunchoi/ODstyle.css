@@ -99,7 +99,8 @@ body{
 #leftPane{
   width: 228px;
   height: calc( 100% - 48px );
-  background-color: gray;
+  background-color: #FAFAFA;
+  border-right: 1px solid #EBEBEB;
 
   display: flex;
   flex-direction: column;
@@ -110,7 +111,6 @@ body{
 #pane{
   flex: 1;
   width: 228px;
-  background-color: beige;
 }
 
 #groupHeader{
@@ -145,48 +145,73 @@ body{
 }
 /* pane */
 
+/* leftNav */
 #leftNav{
   width: 228px;
-  height: 229.13px;
+  height: 205px;
 }
 
+/* subLinks */
 #subLinksAsComponent{
   width: 228px;
   height: 113.46px;
   margin-bottom: 10px;
-  background-color: aquamarine;
 }
 
 #primiumUpSellMessage{
   width: 228px;
-  height: 35.2px;
-  padding: 5px;
-  background-color: aquamarine;
+  height: 35.2x;
+  padding: 5px 10px 5px 10px;
+  font-size: 11px;
+  color: gray;
 }
 
 #primiumUpSellLink{
   width: 228px;
   height: 14.4px;
-  padding: 5px;
-  background-color: aquamarine;
+  padding : 5px 10px 5px 10px;
+  font-size: 11px;
 }
 
 #primiumUpSellBenner{
   width: 228px;
   height: 39.67px;
-  padding: 5px;
-  background-color: aquamarine;
+  padding: 5px 10px 5px 10px;
+  margin-top: 13px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#buyStorage{
+  width: 210px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #E0E0E0;
+  border-collapse: collapse;
+  border-radius: 2px;
+
+  fill: #0078D4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buyStorageText{
+  color: #0078D4;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 0px 0px 0px 10px;
+}
+/* subLinks */
+
+/* quota */
 #Quota{
   width: 228px;
-  height: 42.67px;
-  margin-bottom: 10px;
-  background-color: rgb(210, 119, 0);
+  height: 30px;
+  margin-top: 10px;
 }
 
 #QuotaBar{
@@ -215,15 +240,19 @@ body{
 #QuotaBarText{
   width: 228px;
   height: 16px;
-  font-size: 16px;
-  padding: 5px;
-  background-color: aqua;
+  font-size: 11px;
+  padding: 0px 0px 0px 10px;
 }
+/* quota */
 
 #notificationLink{
   width: 228px;
-  height: 53px;
+  height: 45px;
   padding: 7px;
-  background-color: pink;
+  color: #0078D4;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 20px 0px 0px 10px;
 }
+/* leftNav */
 /* leftPane */
