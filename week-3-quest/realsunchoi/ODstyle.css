@@ -1,0 +1,229 @@
+/*div{
+  border: 1px solid black;
+}*/
+
+/* body */
+body{
+  height: 100vh;
+  margin: 0;
+}
+/* body */
+
+/* header */
+#navBar{
+  height: 48px;
+  padding: 0;
+  background-color: #0078D4;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#startingApp{
+  width: 48px;
+  height: 48px;
+  border: 0px;
+  background-color: #0078D4;
+}
+
+/* oneDriveLogo */
+#oneDriveLogo{
+  width: 88px;
+  height: 48px;
+  text-align: center;
+  line-height : 48px;
+}
+
+#oneDrive{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+/* oneDriveLogo */
+
+#blank{
+  width: 56px;
+  height: 48px;
+}
+
+/* searchBox */
+#inputBox{
+  height: 48px;
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#magnifierButton{
+  width: 44px;
+  height: 32px;
+  border: 0px;
+  background-color: #E1DFDD;
+}
+
+#magnifier{
+  width: 16px;
+  height: 16px;
+  fill: #0078D4;
+  transform: scaleX(-1);
+}
+
+#searchBox{
+  flex: 1;
+  max-width: 424px;
+  height: 32px;
+  border: 0px;
+  outline: none;
+  background-color: #E1DFDD;
+  font-size: 14px;
+}
+/* searchBox */
+
+.icons{
+  width: 50.67px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  fill:white;
+}
+/* header */
+
+/* leftPane */
+#leftPane{
+  width: 228px;
+  height: calc( 100% - 48px );
+  background-color: gray;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+/* pane */ 
+#pane{
+  flex: 1;
+  width: 228px;
+  background-color: beige;
+}
+
+#groupHeader{
+  width: 228px;
+  height: 36px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#userName{
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.groupContent{
+  width: 228px;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  fill: #424242;
+
+  display: flex;
+  align-items: center;
+}
+
+.contentName{
+  line-height: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+/* pane */
+
+#leftNav{
+  width: 228px;
+  height: 229.13px;
+}
+
+#subLinksAsComponent{
+  width: 228px;
+  height: 113.46px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+}
+
+#primiumUpSellMessage{
+  width: 228px;
+  height: 35.2px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+#primiumUpSellLink{
+  width: 228px;
+  height: 14.4px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+#primiumUpSellBenner{
+  width: 228px;
+  height: 39.67px;
+  padding: 5px;
+  background-color: aquamarine;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Quota{
+  width: 228px;
+  height: 42.67px;
+  margin-bottom: 10px;
+  background-color: rgb(210, 119, 0);
+}
+
+#QuotaBar{
+  width: 228px;
+  height: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items : center;
+}
+
+#QuotaBarTotal{
+  width: 210px;
+  height: 2px;
+  position: relative;
+  background-color: #E0E0E0;
+}
+
+#QuotaBarUsed{
+  width: 58.86px;
+  height: 2px;
+  position: absolute;
+  background-color: #0078D4;
+}
+
+#QuotaBarText{
+  width: 228px;
+  height: 16px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: aqua;
+}
+
+#notificationLink{
+  width: 228px;
+  height: 53px;
+  padding: 7px;
+  background-color: pink;
+}
+/* leftPane */
