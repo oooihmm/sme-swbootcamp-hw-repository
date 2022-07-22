@@ -95,6 +95,80 @@ body{
 }
 /* header */
 
+/* commandBar */
+#commandBar{
+  margin: 0%;
+  float: right;
+  height: 60px;
+  width: calc( 100% - 228px );
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #EBEBEB;
+
+  display:inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#uploadNew{
+  flex: 1;
+  height: 48px;
+  background-color: #FAFAFA;
+
+  display: flex;
+  align-items: center;
+}
+
+#arrangementFile{
+  width: 270px;
+  height: 48px;
+  background-color: palevioletred;
+
+  display: flex;
+  align-items: center;
+}
+
+#createNew{
+  width: 148.93px;
+  height: 32px;
+  margin: 0px 5px 0px 5px;
+
+  background-color: #0078D4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuButtonText{
+  font-size: 15px;
+  padding: 0px 10px 0px 10px;
+}
+
+.menuIcon{
+  height: 16px;
+  width: 16px;
+  margin: 0px 0px 5px 0px;
+}
+
+.menuText{
+  margin: 0px 8px 0px 8px;
+}
+
+#uploadButton{
+  width: 130x;
+  height: 32px;
+  margin: 0px 5px 0px 5px;
+
+  color: #424242;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* commandBar */
+
 /* leftPane */
 #leftPane{
   width: 228px;
@@ -102,7 +176,7 @@ body{
   background-color: #FAFAFA;
   border-right: 1px solid #EBEBEB;
 
-  display: flex;
+  display:inline-flex;
   flex-direction: column;
   justify-items: center;
 }
@@ -191,7 +265,7 @@ body{
   border: 1px solid #E0E0E0;
   border-collapse: collapse;
   border-radius: 2px;
-
+  background-color: white;
   fill: #0078D4;
 
   display: flex;
@@ -214,7 +288,7 @@ body{
   margin-top: 10px;
 }
 
-#QuotaBar{
+#QuotaBarBox{
   width: 228px;
   height: 10px;
 
@@ -223,18 +297,9 @@ body{
   align-items : center;
 }
 
-#QuotaBarTotal{
+#QuotaBar{
   width: 210px;
   height: 2px;
-  position: relative;
-  background-color: #E0E0E0;
-}
-
-#QuotaBarUsed{
-  width: 58.86px;
-  height: 2px;
-  position: absolute;
-  background-color: #0078D4;
 }
 
 #QuotaBarText{
