@@ -42,34 +42,113 @@
         <div id="uploadNew">
           <div class="dropdown" id="createNewBox">
             <button class="btn btn-secondary dropdown-toggle" id="createNew" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg><span class="menuButtonText">새로 만들기</span></button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+              <span class="menuButtonText">새로 만들기</span>
+            </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item">
-                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFB900" d="M12 6l-1.268-1.268A2.5 2.5 0 008.964 4H2.5A1.5 1.5 0 001 5.5v13A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><path fill="#FFD75E" d="M12 6l-1.268 1.268A2.5 2.5 0 018.964 8H1v10.5A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="12" y1="6" x2="12" y2="20"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".999" stop-color="#ffd75e" stop-opacity=".3"/></linearGradient><path fill="url(#a)" d="M12 6l-1.268 1.268A2.5 2.5 0 018.964 8H1v10.5A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><path fill="#E67628" d="M2 19.5c-.286 0-.55-.084-.777-.223.263.432.734.723 1.277.723h19c.543 0 1.014-.291 1.277-.723A1.488 1.488 0 0122 19.5H2z"/><path opacity=".4" fill="#FFF" d="M11.129 7.621L12.75 6H12l-1.268 1.268A2.5 2.5 0 018.964 8H1v.5h8.007a3 3 0 002.122-.879z"/></svg><span class="menuText">폴더</span></a></li>
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFB900" d="M12 6l-1.268-1.268A2.5 2.5 0 008.964 4H2.5A1.5 1.5 0 001 5.5v13A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><path fill="#FFD75E" d="M12 6l-1.268 1.268A2.5 2.5 0 018.964 8H1v10.5A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="12" y1="6" x2="12" y2="20"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".999" stop-color="#ffd75e" stop-opacity=".3"/></linearGradient><path fill="url(#a)" d="M12 6l-1.268 1.268A2.5 2.5 0 018.964 8H1v10.5A1.5 1.5 0 002.5 20h19a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0021.5 6H12z"/><path fill="#E67628" d="M2 19.5c-.286 0-.55-.084-.777-.223.263.432.734.723 1.277.723h19c.543 0 1.014-.291 1.277-.723A1.488 1.488 0 0122 19.5H2z"/><path opacity=".4" fill="#FFF" d="M11.129 7.621L12.75 6H12l-1.268 1.268A2.5 2.5 0 018.964 8H1v.5h8.007a3 3 0 002.122-.879z"/></svg>
+                <span class="menuText">폴더</span>
+              </a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item">
-                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#185ABD" d="M19.5 14H14v1h5.5a.5.5 0 000-1z"/><path fill="#2B7CD3" d="M19.5 12H14v1h5.5a.5.5 0 000-1z"/><path fill="#41A5EE" d="M19.5 10H14v1h5.5a.5.5 0 000-1z"/><path fill="#185ABD" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M11 10l-1.507 6h-1.41s-1.021-4.253-1.032-4.5L5.968 16h-1.47L3 10h1.386l.909 4.714L6.452 10h1.34l1.05 4.714c.016 0 .88-4.714.88-4.714H11z"/></svg><span class="menuText">Word 문서</span></a></li>
-              <li><a class="dropdown-item"><svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#134A2C" d="M19 17h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#185C37" d="M15 17h-1v-2h1a1 1 0 110 2z"/><path fill="#21A366" d="M19 14h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#107C41" d="M15 14h-1v-2h1a1 1 0 110 2z"/><path fill="#33C481" d="M19 11h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#21A366" d="M15 11h-1V9h1a1 1 0 110 2z"/><path fill="#107C41" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#F9F7F7" d="M4.125 16l2.06-3.009L4.298 10h1.518l1.03 1.913c.095.18.16.316.196.405h.014c.067-.145.138-.285.213-.422L8.369 10h1.394l-1.936 2.974L9.813 16H8.329l-1.19-2.1a1.75 1.75 0 01-.142-.28H6.98a1.28 1.28 0 01-.138.271L5.617 16H4.125z"/></svg><span class="menuText">Excel 통합 문서</span></a></li>
-              <li><a class="dropdown-item"><svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#ED6C47" d="M19.95 12H17l-1-1h-1l-1 1v2.945A3.486 3.486 0 0016.5 16a3.5 3.5 0 003.5-3.5c0-.171-.027-.335-.05-.5z"/><path fill="#FF8F6B" d="M16.5 9c-.989 0-1.867.42-2.5 1.08V12h3V9.05c-.165-.023-.329-.05-.5-.05z"/><path fill="#FFC7B5" d="M18.05 10.95H21A3.481 3.481 0 0018.05 8v2.95z"/><path fill="#C43E1C" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#F9F7F7" d="M7.362 10c.71 0 1.01.16 1.385.48.378.322.566.786.566 1.395 0 .39-.005.905-.415 1.42-.328.412-.754.71-1.61.705H6v2H5v-6h2.362zM6 13h1.155c.39 0 .683-.087.882-.262.198-.173.298-.427.298-.763 0-.65-.381-.975-1.142-.975H6v2z"/></svg><span class="menuText">PowerPoint 프레젠테이션</span></a></li>
-              <li><a class="dropdown-item"><svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path opacity=".64" fill="#605E5C" d="M20.5 23h-13c-.827 0-1.5-.673-1.5-1.5v-19C6 1.673 6.673 1 7.5 1h13c.827 0 1.5.673 1.5 1.5v19c0 .827-.673 1.5-1.5 1.5zM7.5 2a.5.5 0 00-.5.5v19a.5.5 0 00.5.5h13a.5.5 0 00.5-.5v-19a.5.5 0 00-.5-.5h-13z"/><path fill="#9332BF" d="M22.438 14H22v-4h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#AE4BD5" d="M22.438 9H22V5h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#7719AA" d="M22.438 19H22v-4h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#FFF" d="M7.5 22h13a.5.5 0 00.5-.5v-19a.5.5 0 00-.5-.5h-13a.5.5 0 00-.5.5v19a.5.5 0 00.5.5z"/><path fill="#7719AA" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M4.018 10h1.49l3.233 4.41V10h1.241v6H8.588l-3.333-4.51c-.004-.008.02 4.502.02 4.502L4.018 16v-6z"/></svg><span class="menuText">OneNote 전자 필기장</span></a></li>
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#185ABD" d="M19.5 14H14v1h5.5a.5.5 0 000-1z"/><path fill="#2B7CD3" d="M19.5 12H14v1h5.5a.5.5 0 000-1z"/><path fill="#41A5EE" d="M19.5 10H14v1h5.5a.5.5 0 000-1z"/><path fill="#185ABD" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M11 10l-1.507 6h-1.41s-1.021-4.253-1.032-4.5L5.968 16h-1.47L3 10h1.386l.909 4.714L6.452 10h1.34l1.05 4.714c.016 0 .88-4.714.88-4.714H11z"/></svg>
+                <span class="menuText">Word 문서</span>
+              </a></li>
               <li><a class="dropdown-item">
-                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#038387" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M8.938 10.987l-2.97-.012V12h2.657v.97H5.969V16H5v-6l3.938.013v.974z"/><path fill="#038387" d="M14 13v1h4.5a.5.5 0 010 1H14v1h4.5a1.5 1.5 0 000-3H14z"/><path fill="#1A9BA1" d="M14 9v1h4.5a.5.5 0 010 1H14v1h4.5a1.5 1.5 0 000-3H14z"/></svg><span class="menuText">양식 설문 조사</span></a></li>
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#134A2C" d="M19 17h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#185C37" d="M15 17h-1v-2h1a1 1 0 110 2z"/><path fill="#21A366" d="M19 14h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#107C41" d="M15 14h-1v-2h1a1 1 0 110 2z"/><path fill="#33C481" d="M19 11h-1a1 1 0 110-2h1a1 1 0 110 2z"/><path fill="#21A366" d="M15 11h-1V9h1a1 1 0 110 2z"/><path fill="#107C41" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#F9F7F7" d="M4.125 16l2.06-3.009L4.298 10h1.518l1.03 1.913c.095.18.16.316.196.405h.014c.067-.145.138-.285.213-.422L8.369 10h1.394l-1.936 2.974L9.813 16H8.329l-1.19-2.1a1.75 1.75 0 01-.142-.28H6.98a1.28 1.28 0 01-.138.271L5.617 16H4.125z"/></svg>
+                <span class="menuText">Excel 통합 문서</span>
+              </a></li>
               <li><a class="dropdown-item">
-                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M5.5 22h13c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H5.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M18.293 6L15 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M19.56 5.854l-4.414-4.415A1.51 1.51 0 0014.086 1H5.5C4.673 1 4 1.673 4 2.5v19c0 .827.673 1.5 1.5 1.5h13c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM15 2.707L18.293 6H15.5a.501.501 0 01-.5-.5V2.707zM18.5 22h-13a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H14v3.5c0 .827.673 1.5 1.5 1.5H19v14.5c0 .275-.225.5-.5.5z"/><path fill="#C8C6C4" d="M16.5 10h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 12h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 14h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 16h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 18h-9a.5.5 0 010-1h9a.5.5 0 010 1z"/></svg><span class="menuText">일반 텍스트 문서</span></a></li>
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#ED6C47" d="M19.95 12H17l-1-1h-1l-1 1v2.945A3.486 3.486 0 0016.5 16a3.5 3.5 0 003.5-3.5c0-.171-.027-.335-.05-.5z"/><path fill="#FF8F6B" d="M16.5 9c-.989 0-1.867.42-2.5 1.08V12h3V9.05c-.165-.023-.329-.05-.5-.05z"/><path fill="#FFC7B5" d="M18.05 10.95H21A3.481 3.481 0 0018.05 8v2.95z"/><path fill="#C43E1C" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#F9F7F7" d="M7.362 10c.71 0 1.01.16 1.385.48.378.322.566.786.566 1.395 0 .39-.005.905-.415 1.42-.328.412-.754.71-1.61.705H6v2H5v-6h2.362zM6 13h1.155c.39 0 .683-.087.882-.262.198-.173.298-.427.298-.763 0-.65-.381-.975-1.142-.975H6v2z"/></svg>
+                <span class="menuText">PowerPoint 프레젠테이션</span>
+              </a></li>
+              <li><a class="dropdown-item">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path opacity=".64" fill="#605E5C" d="M20.5 23h-13c-.827 0-1.5-.673-1.5-1.5v-19C6 1.673 6.673 1 7.5 1h13c.827 0 1.5.673 1.5 1.5v19c0 .827-.673 1.5-1.5 1.5zM7.5 2a.5.5 0 00-.5.5v19a.5.5 0 00.5.5h13a.5.5 0 00.5-.5v-19a.5.5 0 00-.5-.5h-13z"/><path fill="#9332BF" d="M22.438 14H22v-4h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#AE4BD5" d="M22.438 9H22V5h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#7719AA" d="M22.438 19H22v-4h.438c.315 0 .562.26.562.594v2.812c0 .333-.247.594-.563.594z"/><path fill="#FFF" d="M7.5 22h13a.5.5 0 00.5-.5v-19a.5.5 0 00-.5-.5h-13a.5.5 0 00-.5.5v19a.5.5 0 00.5.5z"/><path fill="#7719AA" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M4.018 10h1.49l3.233 4.41V10h1.241v6H8.588l-3.333-4.51c-.004-.008.02 4.502.02 4.502L4.018 16v-6z"/></svg>
+                <span class="menuText">OneNote 전자 필기장</span>
+              </a></li>
+              <li><a class="dropdown-item">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M7.5 22h14c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H7.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M21.293 6L18 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M22.56 5.854l-4.414-4.415A1.51 1.51 0 0017.086 1H7.5C6.673 1 6 1.673 6 2.5v19c0 .827.673 1.5 1.5 1.5h14c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM18 2.707L21.293 6H18.5a.501.501 0 01-.5-.5V2.707zM21.5 22h-14a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H17v3.5c0 .827.673 1.5 1.5 1.5H22v14.5c0 .275-.225.5-.5.5z"/><path fill="#038387" d="M2 19h10a1 1 0 001-1V8a1 1 0 00-1-1H2a1 1 0 00-1 1v10a1 1 0 001 1z"/><path fill="#FFF" d="M8.938 10.987l-2.97-.012V12h2.657v.97H5.969V16H5v-6l3.938.013v.974z"/><path fill="#038387" d="M14 13v1h4.5a.5.5 0 010 1H14v1h4.5a1.5 1.5 0 000-3H14z"/><path fill="#1A9BA1" d="M14 9v1h4.5a.5.5 0 010 1H14v1h4.5a1.5 1.5 0 000-3H14z"/></svg>
+                <span class="menuText">양식 설문 조사</span>
+              </a></li>
+              <li><a class="dropdown-item">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#FFF" d="M5.5 22h13c.275 0 .5-.225.5-.5V7h-3.5c-.827 0-1.5-.673-1.5-1.5V2H5.5c-.275 0-.5.225-.5.5v19c0 .275.225.5.5.5z"/><path fill="#FFF" d="M18.293 6L15 2.707V5.5c0 .275.225.5.5.5h2.793z"/><path opacity=".64" fill="#605E5C" d="M19.56 5.854l-4.414-4.415A1.51 1.51 0 0014.086 1H5.5C4.673 1 4 1.673 4 2.5v19c0 .827.673 1.5 1.5 1.5h13c.827 0 1.5-.673 1.5-1.5V6.914c0-.4-.156-.777-.44-1.06zM15 2.707L18.293 6H15.5a.501.501 0 01-.5-.5V2.707zM18.5 22h-13a.501.501 0 01-.5-.5v-19c0-.275.225-.5.5-.5H14v3.5c0 .827.673 1.5 1.5 1.5H19v14.5c0 .275-.225.5-.5.5z"/><path fill="#C8C6C4" d="M16.5 10h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 12h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 14h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 16h-9a.5.5 0 010-1h9a.5.5 0 010 1zM16.5 18h-9a.5.5 0 010-1h9a.5.5 0 010 1z"/></svg>
+                <span class="menuText">일반 텍스트 문서</span>
+              </a></li>
             </ul>
           </div>
+
           <div class="dropdown" id="upload">
-            <button class="btn btn-secondary dropdown-toggle" id="uploadButton" type="button" data-bs-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
-              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-              <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
-            </svg><span class="menuButtonText">업로드</span></button>
+            <button class="btn btn-secondary dropdown-toggle" id="uploadButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+              <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/></svg>업로드
+            </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item">파일</a></li>
               <li><a class="dropdown-item">폴더</a></li>
             </ul>
           </div>
         </div>
-        <div id="arrangementFile"></div>
+
+        <div id="arrangementFile">
+          <div class="dropdown" id="upload">
+            <button class="btn btn-secondary dropdown-toggle" id="howToArrayButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14 19h-14v-1h14v1zm9.247-8.609l-3.247 4.049-3.263-4.062-.737.622 4 5 4-5-.753-.609zm-9.247 2.609h-14v-1h14v1zm0-6h-14v-1h14v1z"/></svg>
+              <span class="menuButtonText">정렬</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item">
+                <input type="radio" name="howToArrayRadioButton" name="howToArrayRadioButton" id="arrayByName" checked></input>
+                이름</a></li>
+              <li><a class="dropdown-item">
+                <input type="radio" name="howToArrayRadioButton" name="howToArrayRadioButton" id="arrayByDay"></input>
+                수정한 날짜</a></li>
+              <li><a class="dropdown-item">
+                <input type="radio" name="howToArrayRadioButton" name="howToArrayRadioButton" id="arrayByFileSize"></input>
+                파일 크기</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item">
+                <input type="radio" name="howToArrayInOrder" name="howToArrayInOrder" id="Ascending"></input>
+                오름차순</a></li>
+              <li><a class="dropdown-item">
+                <input type="radio" name="howToArrayInOrder" name="howToArrayInOrder" id="descending" checked></input>
+                내림차순</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown" id="upload">
+            <button class="btn btn-secondary dropdown-toggle" id="arrayTypeButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">뿡</button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item">
+                  <input type="radio" name="arrayTypeRadioBox"  class="arrayTypeRadioBox" id="listTypeRadioButton"></input>
+                  <svg id="listType" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m13 16.745c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm9-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm-4-5c0-.414-.336-.75-.75-.75h-14.5c-.414 0-.75.336-.75.75s.336.75.75.75h14.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+                  <span class="menuText">목록</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item">
+                  <input type="radio" name="arrayTypeRadioBox"  class="arrayTypeRadioBox" id="simpleListTypeRadioBox"></input>
+                  <svg id="simpleListType" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m17 17.75c0-.414-.336-.75-.75-.75h-13.5c-.414 0-.75.336-.75.75s.336.75.75.75h13.5c.414 0 .75-.336.75-.75zm5-4c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm-9-4c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm7-4c0-.414-.336-.75-.75-.75h-16.5c-.414 0-.75.336-.75.75s.336.75.75.75h16.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"/></svg>
+                  <span class="menuText">간단한 목록</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item">
+                  <input type="radio"name="arrayTypeRadioBox"  class="arrayTypeRadioBox" id="tileTypeRadioBox" checked></input>
+                  <svg id="tileType" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/></svg>
+                  <span class="menuText">타일</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <button type="button" class="btn btn-light" id="informationButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"/><path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/></svg>
+            <span class="menuButtonText">정보</span>
+          </button>
+        </div>
       </div>
     </section>
 
@@ -77,45 +156,48 @@
       <div class="col" id="leftPane">
         <div id="pane">
           <div id="groupHeader"><p id="userName">최 진선</p></div>
-          <div class="groupContent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-folder2" viewBox="0 0 16 16">
-            <path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5v-9zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V7z"/>
-          </svg><span class="contentName">내 파일</span></div>
-          <div class="groupContent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
-            <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
-          </svg><span class="contentName">최근</span></div>
-          <div class="groupContent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-image" viewBox="0 0 16 16">
-            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-            <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
-          </svg><span class="contentName">사진</span></div>
-          <div class="groupContent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-people" viewBox="0 0 16 16">
-            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
-          </svg><span class="contentName">공유됨</span></div>
-          <div class="groupContent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-trash" viewBox="0 0 16 16">
-            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-          </svg><span class="contentName">휴지통</span></div>
+          <div class="groupContent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-folder2" viewBox="0 0 16 16"><path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5v-9zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V7z"/></svg>
+          <span class="contentName">내 파일</span>
         </div>
+          <div class="groupContent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/><path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/></svg>
+          <span class="contentName">최근</span>
+        </div>
+          <div class="groupContent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-image" viewBox="0 0 16 16"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/></svg>
+            <span class="contentName">사진</span>
+          </div>
+          <div class="groupContent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-people" viewBox="0 0 16 16"><path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/></svg>
+            <span class="contentName">공유됨</span>
+          </div>
+          <div class="groupContent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-trash" viewBox="0 0 16 16"><path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/><path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/></svg>
+            <span class="contentName">휴지통</span>
+          </div>
+        </div>
+
         <div id="leftNav">
           <div id="subLinksAsComponent">
             <div id="primiumUpSellMessage">모든 파일 및 사진에 대해 100GB의 스토리지를 받으세요.</div>
             <span id="primiumUpSellLink">저장소 요금제에 대해 자세히 알아보세요</span>
             <div id="primiumUpSellBenner">
-              <button id="buyStorage"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-gem" viewBox="0 0 16 16">
-                <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
-              </svg><span id="buyStorageText">저장소 구매</span></button>
+              <button id="buyStorage">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" class="bi bi-gem" viewBox="0 0 16 16"><path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/></svg>
+                <span id="buyStorageText">저장소 구매</span>
+              </button>
             </div>
           </div>
-            <div id="Quota">
-              <div id="QuotaBarBox">
-                <div class="progress" id="QuotaBar">
-                  <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 27%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          <div id="Quota">
+            <div id="QuotaBarBox">
+              <div class="progress" id="QuotaBar">
+                <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 27%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <div id="QuotaBarText"><span>1.35GB/5GB 중 사용</span></div>
             </div>
-            <div id="notificationLink">OneDrive 앱 다운로드</div>
+            <div id="QuotaBarText"><span>1.35GB/5GB 중 사용</span></div>
           </div>
+          <div id="notificationLink">OneDrive 앱 다운로드</div>
         </div>
       </div>
     </nav>
