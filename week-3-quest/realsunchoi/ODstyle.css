@@ -177,6 +177,72 @@ body{
 }
 /* <-- commandBar --> */
 
+/* <-- uploadedFiles --> */
+#uploadedFiles{
+  margin: 0%;
+  float: right;
+  height: calc( 100% - 60px - 48px);
+  width: calc( 100% - 228px );
+  background-color: #FAFAFA;
+
+  display:inline-flex;
+}
+
+#ForUserBox{
+  height: 230px;
+}
+
+#ForUser{
+  height: 60px;
+  padding: 15px 0px 0px 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#userMoment{
+  display: flex;
+  flex-direction: row;
+}
+
+#remindMemory, #monthlyMoment{
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  background-size: cover;
+  background-color: white;
+}
+
+#monthlyMoment{
+  color: white;
+  background: linear-gradient(to bottom, transparent, rgb(63, 63, 63)),
+  url("moment.jpg");
+  background-size: 300px;
+}
+
+.card-title{
+  font-size: 14.5px;
+  font-weight: bold;
+  margin-top: 125px;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+#MyFile{
+  height: 100px;
+  background-color: beige;
+}
+
+#fileList{
+  height: 211px;
+  background-color: olive;
+}
+/* <-- uploadedFiles --> */
+
 /* <-- leftPane --> */
 #leftPane{
   width: 228px;
