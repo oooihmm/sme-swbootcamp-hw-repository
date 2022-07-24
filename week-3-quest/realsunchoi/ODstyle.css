@@ -52,6 +52,19 @@ body{
   margin: 15px;
 }
 
+#goOutlook, #goOnedrive, #goTeams, #goWord, #goExcel, #goPowerpoint, #goOnenote, #goTodo, #goFamily, #goPlans, #goSkype{
+  width: 150px;
+  height: 50px;
+  border: 0px;
+  color: #424242;
+  background-color: white;
+  margin: 10px 5px 10px 5px;
+}
+
+.microsoft365Img{
+  width: 30px;
+}
+
 /* oneDriveLogo */
 #oneDriveLogo{
   width: 88px;
