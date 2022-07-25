@@ -1,0 +1,477 @@
+/*div{
+  border: 1px solid black;
+}*/
+
+/* body */
+body{
+  height: 100vh;
+  margin: 0;
+}
+/* body */
+
+/* <-- header --> */
+#navBar{
+  height: 48px;
+  padding: 0;
+  background-color: #0078D4;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#startingApp{
+  width: 48px;
+  height: 48px;
+  border: 0px;
+  background-color: #0078D4;
+}
+
+.offcanvas-header{
+  height: 50px;
+  color: #424242;
+}
+
+#startingAppOppCanvasButton{
+  width: 48px;
+  height: 48px;
+  border: 0px;
+  background-color: white;
+}
+
+#linkToOffice{
+  width: 100px;
+  height: 48px;
+  border: 0px;
+  background-color: white;
+}
+
+.offcanvas-body{
+  color: #424242;
+  margin: 15px;
+}
+
+#goOutlook, #goOnedrive, #goTeams, #goWord, #goExcel, #goPowerpoint, #goOnenote, #goTodo, #goFamily, #goPlans, #goSkype{
+  width: 150px;
+  height: 50px;
+  border: 0px;
+  color: #424242;
+  background-color: white;
+  margin: 10px 5px 10px 5px;
+}
+
+.microsoft365Img{
+  width: 30px;
+}
+
+/* oneDriveLogo */
+#oneDriveLogo{
+  width: 88px;
+  height: 48px;
+  text-align: center;
+  line-height : 48px;
+}
+
+#oneDrive{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+/* oneDriveLogo */
+
+#blank{
+  width: 56px;
+  height: 48px;
+}
+
+/* searchBox */
+#inputBox{
+  height: 48px;
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#magnifierButton{
+  width: 44px;
+  height: 32px;
+  border: 0px;
+  background-color: #E1DFDD;
+}
+
+#magnifier{
+  width: 16px;
+  height: 16px;
+  fill: #0078D4;
+  transform: scaleX(-1);
+}
+
+#searchBox{
+  flex: 1;
+  max-width: 424px;
+  height: 32px;
+  border: 0px;
+  outline: none;
+  background-color: #E1DFDD;
+  font-size: 14px;
+}
+/* searchBox */
+
+.icons{
+  width: 50.67px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  fill:white;
+}
+/* <-- header --> */
+
+/* <-- commandBar --> */
+#commandBar{
+  margin: 0%;
+  float: right;
+  height: 60px;
+  width: calc( 100% - 228px );
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #EBEBEB;
+
+  display:inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#uploadNew{
+  flex: 1;
+  height: 48px;
+  background-color: #FAFAFA;
+
+  display: flex;
+  align-items: center;
+}
+
+#arrangementFile{
+  width: 275px;
+  height: 48px;
+  background-color: #FAFAFA;
+
+  display: flex;
+  align-items: center;
+}
+
+#createNew{
+  width: 148.93px;
+  height: 32px;
+  margin: 0px 5px 0px 5px;
+
+  background-color: #0078D4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuButtonText{
+  font-size: 15px;
+  padding: 0px 7px 0px 7px;
+}
+
+.menuIcon{
+  height: 16px;
+  width: 16px;
+  margin: 0px 0px 5px 0px;
+}
+
+.menuText{
+  margin: 0px 8px 0px 8px;
+}
+
+#uploadButton, #howToArrayButton, #arrayTypeButton, #informationButton{
+  width: 130x;
+  height: 32px;
+  margin: 0px 5px 0px 5px;
+
+  color: #424242;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: none;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrayTypeRadioBox, .howToArrayRadioBox{
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  margin: 0px 10px 0px 0px;
+}
+/* <-- commandBar --> */
+
+/* <-- uploadedFiles --> */
+#uploadedFiles{
+  margin: 0%;
+  float: right;
+  height: calc( 100% - 60px - 48px);
+  width: calc( 100% - 228px );
+  background-color: #FAFAFA;
+
+  display:inline-flex;
+}
+
+#ForUserBox{
+  height: 300px;
+}
+
+#ForUser{
+  height: 60px;
+  padding: 30px 0px 0px 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#userMoment{
+  display: flex;
+  flex-direction: row;
+}
+
+#remindMemory, #monthlyMoment{
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  background-size: cover;
+  background-color: white;
+}
+
+#monthlyMoment{
+  color: white;
+  background: linear-gradient(to bottom, transparent, rgb(63, 63, 63)),
+  url("moment.jpg");
+  background-size: 300px;
+}
+
+.card-title{
+  font-size: 14.5px;
+  font-weight: bold;
+  margin-top: 125px;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+#MyFile{
+  height: 60px;
+  padding: 20px 0px 0px 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#fileList{
+  flex: 1;
+  display: inline-flex;
+  float: left;
+  min-height: 211px;
+}
+
+#fictureFile, #backGroundFile, #documentFile, #personalFile{
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px;
+
+  /*background-color: #F0F0F0;*/
+}
+
+.fileImg{
+  width: 150px;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.userFileImgFront{
+  width: 130px;
+  position: relative;
+}
+
+.userFileImgBack{
+  width: 130px;
+  position: absolute;
+}
+
+.fileName, .fileCheckBox{
+  width: 150px;
+  height: 20px;
+
+  text-align: center;
+  font-size: 15px;
+}
+/* <-- uploadedFiles --> */
+
+/* <-- leftPane --> */
+#leftPane{
+  width: 228px;
+  height: calc( 100% - 48px );
+  background-color: #FAFAFA;
+  border-right: 1px solid #EBEBEB;
+
+  display:inline-flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+/* pane */ 
+#pane{
+  flex: 1;
+  width: 228px;
+}
+
+#groupHeader{
+  width: 228px;
+  height: 36px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#userName{
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.groupContent{
+  width: 228px;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  fill: #424242;
+
+  display: flex;
+  align-items: center;
+}
+
+.contentName{
+  line-height: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+/* pane */
+
+/* leftNav */
+#leftNav{
+  width: 228px;
+  height: 205px;
+}
+
+/* subLinks */
+#subLinksAsComponent{
+  width: 228px;
+  height: 113.46px;
+  margin-bottom: 10px;
+}
+
+#primiumUpSellMessage{
+  width: 228px;
+  height: 35.2x;
+  padding: 5px 10px 5px 10px;
+  font-size: 11px;
+  color: gray;
+}
+
+#primiumUpSellLink{
+  width: 228px;
+  height: 14.4px;
+  padding : 5px 10px 5px 10px;
+  font-size: 11px;
+}
+
+#primiumUpSellBenner{
+  width: 228px;
+  height: 39.67px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 13px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buyStorage{
+  width: 210px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #E0E0E0;
+  border-collapse: collapse;
+  border-radius: 2px;
+  background-color: white;
+  fill: #0078D4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buyStorageText{
+  color: #0078D4;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 0px 0px 0px 10px;
+}
+/* subLinks */
+
+/* quota */
+#Quota{
+  width: 228px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#QuotaBarBox{
+  width: 228px;
+  height: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items : center;
+}
+
+#QuotaBar{
+  width: 210px;
+  height: 2px;
+}
+
+#QuotaBarText{
+  width: 228px;
+  height: 16px;
+  font-size: 11px;
+  padding: 0px 0px 0px 10px;
+}
+/* quota */
+
+#notificationLink{
+  width: 228px;
+  height: 45px;
+  padding: 7px;
+  color: #0078D4;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 20px 0px 0px 10px;
+}
+/* leftNav */
+/* <-- leftPane --> */

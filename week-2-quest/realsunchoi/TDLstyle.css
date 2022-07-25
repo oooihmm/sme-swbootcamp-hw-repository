@@ -2,7 +2,8 @@ body {
   background: linear-gradient(#fff5f7, #f1cdd4); 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;}
+  height: 100vh;
+}
 
 h1 {
   text-align: center;
